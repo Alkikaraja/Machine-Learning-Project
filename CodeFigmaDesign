@@ -1,0 +1,27 @@
+import React from "react";
+import { StyleSheet, Text, View } from "react-native";
+
+const Flex = () => {
+  return (
+  <View style={{ flex: 1 }}>
+    <View style={{ height: 40, backgroundColor: "yellow" }}><Text>Selamat Datang</Text></View>
+    <View style={{ height: 180, backgroundColor: "green" }}><Text>Ini Highlight Content</Text></View>
+    <View style={{ marginTop: 8 }}>
+    <Text style={{ fontSize: 18 }}>Destinasi Wisata</Text>
+    <Text style={{ fontSize: 11, textAlign: 'center' }}>Pilihan Terbaik</Text></View>
+    <View style={{ flex: 1 }}>
+      <View style={{ flex: 1, flexDirection: "row" }}>
+        <View><Text>One Day PKT Trip</Text></View>
+        <View><Text>One Day Merapi Trip</Text></View>
+      </View>
+      <View style={{ flex: 1, flexDirection: "row" }}>
+        <View><Text>Kidul Trip</Text></View>
+    <View>
+    </View>
+  </View>
+  </View>
+  </View>
+  );
+};
+
+export default Flex;
